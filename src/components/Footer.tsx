@@ -5,10 +5,10 @@ export default function Footer() {
     <footer className="bg-[#090909] text-gray-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col md:flex-row justify-between">
-          <div>
-            <div className='flex items-center justify-start'>
-              <img src={logo} alt="" className="w-24" />
-              <h3 className="text-white text-lg font-semibold mb-4">WSU</h3>
+          <div className='flex flex-col gap-4'>
+            <div className='flex gap-4 items-center justify-start'>
+              <img src={logo} alt="" className="w-14" />
+              <h3 className="text-white text-lg font-semibold">WSU</h3>
             </div>
             <p className="text-sm max-w-96">
               Bringing you comprehensive football coverage and analysis from

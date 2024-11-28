@@ -4,6 +4,8 @@ import alejandro from '../assets/alejandro.jpeg'
 import pelumi from '../assets/pelumi.jpeg'
 import jb from '../assets/oluwajubelo.jpeg'
 import babs from '../assets/babs.jpeg'
+import oduduwa from '../assets/oduduwa.jpeg'
+import icon from '../assets/icon.jpeg'
 
 export interface Candidate {
   id: number
@@ -67,6 +69,24 @@ export const candidates: Candidate[] = [
     image: babs,
     reason:
       'Badmus-Afefe Sports keeps us informed with timely, accurate updates and breaking news, making them an essential part of our community. Their dedication and reliability make them the ideal candidate for News Distributor of the Year.',
+    votingLink: '#vote-sarah',
+  },
+  {
+    id: 7,
+    name: 'Oduduwa of Jokes',
+    position: 'Super fan of the Year',
+    image: oduduwa,
+    reason:
+      'Oduduwa, a die-hard Liverpool fan, embodies the spirit of our community with his unwavering passion and objective analysis. His in-depth knowledge and support for the team are unparalleled, making him the perfect candidate for Fan of the Year.',
+    votingLink: '#vote-sarah',
+  },
+  {
+    id: 8,
+    name: 'Icon',
+    position: 'Rookie of the year',
+    image: icon,
+    reason:
+      'Icon, a passionate fan new to the group, has shown immense potential. His enthusiasm and eagerness to contribute have made them a standout candidate for Rookie of the Year.',
     votingLink: '#vote-sarah',
   },
 ]

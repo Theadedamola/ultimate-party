@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src={logo} alt="" className="w-24" />
+              <img src={logo} alt="" className="w-14" />
             </Link>
           </div>
 

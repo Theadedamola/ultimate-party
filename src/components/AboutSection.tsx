@@ -4,7 +4,7 @@ import { motionSettings } from '../hooks/FramerSettings'
 
 function AboutSection() {
   return (
-    <section id="about" className="py-20 bg-[#111111]">
+    <section id="about" className="py-20 bg-[#0c0c0c]">
       <motion.div {...motionSettings} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-6 items-center justify-center">
         <div className="flex flex-col gap-4 items-center justify-center">
           <img src={ollams} alt="" className="w-80 rounded-2xl" />

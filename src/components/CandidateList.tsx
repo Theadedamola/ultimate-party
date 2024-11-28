@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { candidates } from '../data/candidates';
-import { motionSettings } from '../hooks/FramerSettings';
+import { motion } from 'framer-motion'
+import { candidates } from '../data/candidates'
+import { motionSettings } from '../hooks/FramerSettings'
 
 export default function CandidateList() {
   return (
@@ -9,9 +9,10 @@ export default function CandidateList() {
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           The Ultimate Team
         </h2>
-        <motion.div {...motionSettings} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {candidates.map((candidate) => (
-            <div
+            <motion.div
+              {...motionSettings}
               key={candidate.id}
               className="bg-[#111111] rounded-lg overflow-hidden shadow-lg"
             >
@@ -33,9 +34,9 @@ export default function CandidateList() {
                   Vote Now
                 </a> */}
               </div>
-            </div>
+            </motion.div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   )

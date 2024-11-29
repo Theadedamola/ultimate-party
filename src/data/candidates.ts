@@ -50,7 +50,7 @@ export const candidates: Candidate[] = [
     position: 'Banter Lord of the year',
     image: alejandro,
     reason:
-      'Alejandro Dm is the epitome of friendly banter, engaging in hilarious exchanges with all teams, making him the perfect candidate for Banter Lord of the year.',
+      'Alejandro Dm is the epitome of friendly banter, engaging in hilarious exchanges with all teams even against admins, making him the perfect candidate for Banter Lord of the year.',
     votingLink: '#vote-priya',
   },
   {
@@ -68,7 +68,7 @@ export const candidates: Candidate[] = [
     position: 'News Distributor of the Year',
     image: babs,
     reason:
-      'Badmus-Afefe Sports keeps us informed with timely, accurate updates and breaking news, making them an essential part of our community. Their dedication and reliability make them the ideal candidate for News Distributor of the Year.',
+      'Badmus-Afefe Sports keeps us informed with timely, accurate updates and breaking news, making him an essential part of our community. His dedication and reliability make him the ideal candidate for News Distributor of the Year.',
     votingLink: '#vote-sarah',
   },
   {
